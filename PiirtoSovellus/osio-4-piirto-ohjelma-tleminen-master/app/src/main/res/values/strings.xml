@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VKO4_tleminen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="paksuus">paksuus: </string>
+    <string name="cb_ympyra">Ympyrä</string>
+    <string name="btn_New">Uusi</string>
+    <string name="btn_Save">Tallenna</string>
+    <string name="btn_Print">Tulosta</string>
+    <string name="btn_Peruuta">&#8592;</string>
+    <string name="dialog_confirm">Vahvista</string>
+    <string name="dialog_cancel">Peruuta</string>
+    <string name="dialog_new_info">Oletko varma? Kaikki tallentamaton poistuu kokonaan ja uusi tyhjä sivu avautuu</string>
+
+    </resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Vari_paksuusFragmentti">
+
+
+    <LinearLayout
+        android:id="@+id/Layout_Inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxYmpyra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/cb_ympyra" />
+
+            <com.google.android.material.slider.Slider
+                android:id="@+id/slider_ympyranSade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:valueFrom="10"
+                android:valueTo="400" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/paintSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/paintContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tvPaksuusTeksti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paksuus"
+            android:textAlignment="center" />
+
+        <SeekBar
+            android:id="@+id/seekBarPenWidth"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:minHeight="48dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
